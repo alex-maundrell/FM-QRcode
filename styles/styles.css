@@ -1,7 +1,61 @@
+:root {
+    --text-color: hsl(220, 15%, 55%);
+    --card-bg: hsl(0, 0%, 100%);
+    --bg-color: hsl(212, 45%, 89%);
+}
+
 * {
     margin: 0;
     padding: 0;
     font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-container>.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--card-bg);
+    width: 330px;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.page-container>.card>.card-content {}
+
+.page-container>.card>.card-content img {
+    width: 300px;
+    height: 300px;
+    margin-top: -20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.page-container>.card>.card-content>.bold-text {
+    width: 300px;
+    font-size: 1.35em;
+    font-weight: 700;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.page-container>.card>.card-content>.reg-text {
+    width: 300px;
+    font-size: 15px;
+    color: var(--text-color);
+    text-align: center;
+    justify-content: center;
+    padding: 10px 0;
 }
 
 .attribution {
