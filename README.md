@@ -22,5 +22,3 @@ I had an issue centering the card on the center of the screen. I tried multiple 
 ## Author
 
 - Frontend Mentor - [@alex-maundrell](https://www.frontendmentor.io/profile/alex-maundrell)
-
-- GitHub - [alex-maundrell](https://github.com/alex-maundrell)
