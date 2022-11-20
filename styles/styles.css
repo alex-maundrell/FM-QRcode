@@ -12,6 +12,11 @@
 
 body {
     background-color: var(--bg-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .page-container {
@@ -45,7 +50,6 @@ body {
     font-size: 1.35em;
     font-weight: 700;
     text-align: center;
-    justify-content: center;
     padding: 10px 0;
 }
 
@@ -54,7 +58,6 @@ body {
     font-size: 15px;
     color: var(--text-color);
     text-align: center;
-    justify-content: center;
     padding: 10px 0;
 }
 
