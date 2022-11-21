@@ -58,11 +58,15 @@ body {
     padding: 10px 0;
 }
 
-.attribution {
+.footer {
+    margin-top: 50px;
+}
+
+.footer>.attribution {
     font-size: 11px;
     text-align: center;
 }
 
-.attribution a {
+.footer>.attribution a {
     color: hsl(228, 45%, 44%);
 }

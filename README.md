@@ -7,7 +7,7 @@ When this is completed, I will update the link to the live version via netlify.
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://taupe-souffle-95e5fb.netlify.app](https://taupe-souffle-95e5fb.netlify.app)
 
 ### Built with
 
