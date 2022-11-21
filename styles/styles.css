@@ -1,5 +1,6 @@
 :root {
     --text-color: hsl(220, 15%, 55%);
+    --dark-text-color: hsl(218, 44%, 22%);
     --card-bg: hsl(0, 0%, 100%);
     --bg-color: hsl(212, 45%, 89%);
 }
@@ -12,15 +13,12 @@
 
 body {
     background-color: var(--bg-color);
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .page-container {
+    min-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -30,12 +28,10 @@ body {
     justify-content: center;
     align-items: center;
     background-color: var(--card-bg);
-    width: 330px;
+    width: 325px;
     height: 500px;
     border-radius: 15px;
 }
-
-.page-container>.card>.card-content {}
 
 .page-container>.card>.card-content img {
     width: 300px;
@@ -46,15 +42,16 @@ body {
 }
 
 .page-container>.card>.card-content>.bold-text {
-    width: 300px;
+    color: var(--dark-text-color);
+    width: 280px;
     font-size: 1.35em;
     font-weight: 700;
     text-align: center;
-    padding: 10px 0;
+    padding-bottom: 5px;
 }
 
 .page-container>.card>.card-content>.reg-text {
-    width: 300px;
+    width: 280px;
     font-size: 15px;
     color: var(--text-color);
     text-align: center;
